@@ -13,9 +13,11 @@ Please use NVM to install the above versions of Node, if you want to keep multip
 ## Running the backend server
 
 The project uses [json-server](https://github.com/typicode/json-server) to mock a backend. To run it, simply copy this command on a terminal window : `json-server --watch database/db.json --port 3001`
+Some endpoints : `http://localhost:3001/songs` and `http://localhost:3001/artists`. Individual endpoints are according to json-server format.
 
 ## Running the frontend
 The frontend is created using Create React App, and can be run by the following command on a <u>**separate terminal window**</u>: `npm run start`
+URL for frontend : `http://localhost:3000`
 
 ## List of technologies used
 * React
