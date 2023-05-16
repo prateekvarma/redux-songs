@@ -1,0 +1,78 @@
+{
+  "songs": [
+    {
+      "id": 123,
+      "title": "Hope",
+      "genre": "rap",
+      "duration": 10000,
+      "artistId": 1,
+      "audioLanguage": "English"
+    },
+    {
+      "id": 124,
+      "title": "MONTERO (Call Me By Your Name)",
+      "genre": "rap",
+      "duration": 10000,
+      "artistId": 2,
+      "audioLanguage": "English"
+    },
+    {
+      "id": 125,
+      "title": "Comfortably Numb",
+      "genre": "Blues Rock",
+      "duration": 14000,
+      "artistId": 3,
+      "audioLanguage": "English"
+    },
+    {
+      "id": 126,
+      "title": "Nothing Else Matters",
+      "genre": "Rock/Metal",
+      "duration": 12000,
+      "artistId": 4,
+      "audioLanguage": "English"
+    },
+    {
+      "id": 127,
+      "title": "Peace Sells",
+      "genre": "Heavy Metal",
+      "duration": 8000,
+      "artistId": 5,
+      "audioLanguage": "English"
+    },
+    {
+      "id": 128,
+      "title": "Blood Brothers",
+      "genre": "Heavy Metal",
+      "duration": 15000,
+      "artistId": 6,
+      "audioLanguage": "English"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Arlo Parks"
+    },
+    {
+      "id": 2,
+      "name": "Li Nas X"
+    },
+    {
+      "id": 3,
+      "name": "Pink Floyd"
+    },
+    {
+      "id": 4,
+      "name": "Metallica"
+    },
+    {
+      "id": 5,
+      "name": "Megadeth"
+    },
+    {
+      "id": 6,
+      "name": "Iron Maiden"
+    }
+  ]
+}

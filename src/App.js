@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Navigationbar from './components/Navigationbar';
+import Home from './components/Home';
+import AllSongs from './components/AllSongs';
+import AllArtists from './components/AllArtists';
+import Error from './components/Error';
+import Song from './components/Song';
+import ArtistsByIds from './components/ArtistsByIds';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navigationbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/songs' element={<AllSongs />} />
+        <Route path='/songs/:songId' element={<Song />} />
+        <Route path='/artists' element={<AllArtists />} />
+        <Route path='/artists/byIds' element={<ArtistsByIds />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
