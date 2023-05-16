@@ -3,8 +3,8 @@ Clone the repo and run `npm install` to install all dependencies
 
 ## Node and NPM versions
 The project is created using the following versions of node.js and npm -
-Node version: 18.13.0
-NPM version: 8.19.3
+Node version: `18.13.0`
+NPM version: `8.19.3`
 
 It is highly recommended that you use the same versions of Node and NPM to avoid any dependency conflicts. 
 
